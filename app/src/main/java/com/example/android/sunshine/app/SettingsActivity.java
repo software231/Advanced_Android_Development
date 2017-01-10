@@ -64,7 +64,7 @@ public class SettingsActivity extends PreferenceActivity
         // If we are using a PlacePicker location, we need to show attributions.
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
             mAttribution = new ImageView(this);
-            mAttribution.setImageResource(R.drawable.powered_by_google_light);
+            //mAttribution.setImageResource(R.drawable.powered_by_google_light);
 
             if (!Utility.isLocationLatLonAvailable(this)) {
                 mAttribution.setVisibility(View.GONE);
